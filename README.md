@@ -10,8 +10,7 @@
   <a href="https://x.com/reactos">
     <img alt="Follow Reactos on X!" src="https://img.shields.io/badge/-Follow_%40reactos-black?style=for-the-badge&logo=X&labelColor=black&color=brightgreen"></a>
     <a href="https://x.com/Not_Esplash">
-    <img alt="Follow Me on X!" src="https://img.shields.io/badge/-Follow_Me_Here-black?style=for-the-badge&logo=X&labelColor=black&color=brightgreen"></a>
-"></a>
+    <img alt="Follow Me on X!" src="https://img.shields.io/badge/-Follow_Me_Here-black?style=for-the-badge&logo=X&labelColor=black&color=gray"></a>
 </p>
 
 ## Quick Links
