@@ -8,7 +8,7 @@
 
 <p align=center>
   <a href="https://x.com/reactos">
-    <img alt="Follow Reactos on X!" src="https://img.shields.io/twitter/follow/reactos.svg?style=social&label=Follow%20%40reactos"></a>
+    <img alt="Follow Reactos on X!" src="https://img.shields.io/badge/-Follow_%40reactos-black?style=for-the-badge&logo=X&labelColor=black&color=brightgreen"></a>
     <a href="https://x.com/Not_Esplash">
     <img alt="Follow Me on X!" src="https://img.shields.io/badge/-Follow_Me_Here-black?style=for-the-badge&logo=X&labelColor=black&color=brightgreen"></a>
 "></a>
