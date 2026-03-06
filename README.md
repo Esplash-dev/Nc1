@@ -1,6 +1,6 @@
 <p align=center>
   <a href="https://reactos.org/">
-    <img alt="ReactOS" src="https://reactos.org/wiki/images/0/02/ReactOS_logo.png">
+    <img alt="ReactOS" src="https://reactos.org/wiki/images/0/02/ReactOS_logo.png](https://upload.wikimedia.org/wikipedia/en/5/58/Instagram_egg.jpg">
   </a>
 </p>
 
