@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Esplash-dev/Nc1">
-    <img src="https://via.placeholder.com/200x200/001F3F/00D4FF?text=NC1" alt="NC 1 Logo" width="200">
+    <img src="https://github.com/Esplash-dev/Nc1/raw/master/ysr.png">
   </a>
 </p>
 
