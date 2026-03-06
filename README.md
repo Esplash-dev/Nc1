@@ -51,6 +51,18 @@ Do NOT use on real hardware with important data — crashes or data loss possibl
 
 Building works the same as ReactOS. Recommended:  
 - Windows: Microsoft Visual Studio 2022 Community (free) with "Desktop development with C++" + CMake.  
-- See [ReactOS Building Guide](https://reactos.org/wiki/Building_ReactOS) for full steps.
+- See [ReactOS Building Guide](https://reactos.org/wiki/Building_ReactOS) for full steps
 
-Quick build in Developer Command Prompt:
+## Contributing
+
+Ideas, fixes, or help?  
+Fork → edit → pull request, or message me on X @Not_Esplash.
+
+**Legal Note**: No proprietary Microsoft code allowed (clean-room only).
+
+## License
+
+- Base system (ReactOS fork): GNU GPL 2.0  
+- Custom shell (dc.exe) & additions: Proprietary © Esplash
+
+Feedback welcome! Let's build something cool. 🖤
