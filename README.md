@@ -10,7 +10,7 @@
   <a href="https://x.com/reactos">
     <img alt="Follow Reactos on X!" src="https://img.shields.io/twitter/follow/reactos.svg?style=social&label=Follow%20%40reactos"></a>
     <a href="https://x.com/Not_Esplash">
-    <img alt="Follow Me on X!" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/X_icon_2.svg"></a>
+    <img alt="Follow Me on X!" src="https://img.shields.io/badge/Follow_Me_And_ReactOs_On-X-black"></a>
 </p>
 
 ## Quick Links
