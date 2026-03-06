@@ -1,115 +1,56 @@
-<p align=center>
-  <a href="https://en.wikipedia.org/wiki/Instagram_egg">
-    <img alt="ReactOS" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Instagram_egg.jpg/250px-Instagram_egg.jpg">
+<p align="center">
+  <a href="https://github.com/Esplash-dev/Nc1">
+    <img src="https://via.placeholder.com/200x200/001F3F/00D4FF?text=NC1" alt="NC 1 Logo" width="200">
   </a>
 </p>
 
----
+<h1 align="center">NC 1 (Net Code 1)</h1>
 
-<p align=center>
-  <a href="https://x.com/reactos">
-    <img alt="Follow Reactos on X!" src="https://img.shields.io/badge/-Follow_%40reactos-black?style=for-the-badge&logo=X&labelColor=black&color=brightgreen"></a>
-    <a href="https://x.com/Not_Esplash">
-    <img alt="Follow Me on X!" src="https://img.shields.io/badge/-Follow_Me_Here-black?style=for-the-badge&logo=X&labelColor=black&color=gray"></a>
+<p align="center">
+  My personal lightweight OS fork — nostalgic XP vibes + modern dark concept shell.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Esplash-dev/Nc1/releases">
+    <img src="https://img.shields.io/github/v/release/Esplash-dev/Nc1?color=0688CB" alt="Release">
+  </a>
+  <a href="https://github.com/Esplash-dev/Nc1">
+    <img src="https://img.shields.io/github/license/Esplash-dev/Nc1?color=0688CB" alt="License">
+  </a>
+  <a href="https://x.com/Not_Esplash">
+    <img src="https://img.shields.io/twitter/follow/Not_Esplash?style=social" alt="Follow @Not_Esplash">
+  </a>
+</p>
+
+## What is NC 1?
+
+NC 1 is my custom take on a lightweight, open-source operating system. It keeps the classic Windows XP/Server 2003 feel (setup wizard, shutdown dialog, nostalgic UI) while adding my modern dark-mode desktop shell:
+
+- Translucent sidebar panels (Recent Apps / Welcome, User!)
+- Centered NC logo with cyan glow
+- Dark purple-blue gradient background
+- Bottom search + shut down bar
+- Aiming for improved Windows 10-era app compatibility (NT 10.0 version reporting + API progress)
+
+Built as a fork of [ReactOS](https://reactos.org) — massive thanks to the ReactOS team!
+
+**Important Warning**  
+NC 1 is **alpha quality** software.  
+Test only in a virtual machine (VirtualBox or VMware).  
+Do NOT use on real hardware with important data — crashes or data loss possible!
+
 ## Quick Links
-[Egg Wiki](https://en.wikipedia.org/wiki/Instagram_egg) &bull;
-[Discord](https://discord.com/channels/1239884714387443822/1360171885224267817) &bull;
 
-## What is NC1?
-
-NC 1 is my personal take on a lightweight, open-source operating system inspired by the classic Windows NT family (XP/Server 2003 era) but with modern touches.
-
-- Nostalgic XP-style setup, logon, and shutdown dialogs  
-- Custom dark-mode desktop shell (translucent sidebar panels, centered NC logo, gradient background)  
-- Aiming for better compatibility with Windows 10-era apps (NT 10.0 reporting + API progress)  
-- Built as a fork of [ReactOS](https://reactos.org) — huge thanks to their amazing work!
-
-**Warning:** NC 1 is **alpha quality** software. Use it only in a virtual machine (VirtualBox/VMware) and never on a machine with important data. Things may crash, data may be lost — you have been warned!
+- [Releases (ISOs)](https://github.com/Esplash-dev/Nc1/releases)  
+- [My X (@Not_Esplash)](https://x.com/Not_Esplash)  
+- [Discord Chat](https://discord.com/channels/1239884714387443822/1360171885224267817)  
+- [ReactOS Website](https://reactos.org)  
+- [ReactOS Wiki](https://reactos.org/wiki/)
 
 ## Building
 
-![Build](https://github.com/reactos/reactos/workflows/Build/badge.svg) [![rosbewin.badge]][rosbewin.link] [![rosbeunix.badge]][rosbeunix.link] [![coverity.badge]][coverity.link]
+Building works the same as ReactOS. Recommended:  
+- Windows: Microsoft Visual Studio 2022 Community (free) with "Desktop development with C++" + CMake.  
+- See [ReactOS Building Guide](https://reactos.org/wiki/Building_ReactOS) for full steps.
 
-To build the system it is strongly advised to use the _ReactOS Build Environment (RosBE)._
-Up-to-date versions for Windows and for Unix/GNU-Linux are available from our download page at: ["Build Environment"](https://reactos.org/wiki/Build_Environment).
-
-Alternatively one can use Microsoft Visual C++ (MSVC) version 2019+. Building with MSVC is covered here: ["Visual Studio or Microsoft Visual C++"](https://reactos.org/wiki/CMake#Visual_Studio_or_Microsoft_Visual_C.2B.2B).
-
-See ["Building ReactOS"](https://reactos.org/wiki/Building_ReactOS) article for more details.
-
-### Binaries
-
-To build ReactOS you must run the `configure` script in the directory you want to have your build files. Choose `configure.cmd` or `configure.sh` depending on your system. Then run `ninja <modulename>` to build a module you want or just `ninja` to build all modules.
-
-### Bootable images
-
-To build a bootable CD image run `ninja bootcd` from the build directory. This will create a CD image with a filename `bootcd.iso`.
-
-You can always download fresh binary builds of bootable images from the ["Daily builds"](https://reactos.org/getbuilds/) page.
-
-## Installing
-
-By default, ReactOS currently can only be installed on a machine that has a FAT16 or FAT32 partition as the active (bootable) partition.
-The partition on which ReactOS is to be installed (which may or may not be the bootable partition) must also be formatted as FAT16 or FAT32.
-ReactOS Setup can format the partitions if needed.
-
-Starting with 0.4.10, ReactOS can be installed using the BtrFS file system. But consider this as an experimental feature and thus regressions not triggered on FAT setup may be observed.
-
-To install ReactOS from the bootable CD distribution, extract the archive contents. Then burn the CD image, boot from it, and follow the instructions.
-
-See ["Installing ReactOS"](https://reactos.org/wiki/Installing_ReactOS) Wiki page or [INSTALL](INSTALL) for more details.
-
-## Testing
-
-If you discover a bug in ReactOS search on JIRA first - it might be reported already. If not report the bug providing logs and as much information as possible.
-
-See ["File Bugs"](https://reactos.org/wiki/File_Bugs) for a guide.
-
-__NOTE:__ The bug tracker is _not_ for discussions. Please use our [official chat](https://chat.reactos.org/) or our [forum](https://reactos.org/forum/).
-
-## Contributing  [![prwelcome.badge]](https://reactos.org/wiki/Commiting_Changes)
-
-We are always looking for developers! Check [how to contribute](CONTRIBUTING.md) if you are willing to participate.
-
-__Legal notice__: If you have seen proprietary Microsoft Windows source code (including but not limited to the leaked Windows NT 3.5, NT 4, 2000 source code and the Windows Research Kernel), your contribution won't be accepted because of potential copyright violation.
-
-Try out cloud-based ReactOS development using Gitpod and Docker:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/reactos/reactos)
-
-You can also support ReactOS by [donating](https://reactos.org/donate/)! We rely on our backers to maintain our servers and accelerate development by [hiring full-time devs](https://reactos.org/contributing/#paid-jobs).
-
-## More information
-
-ReactOS is a Free and Open Source operating system based on the Windows architecture,
-providing support for existing applications and drivers, and an alternative to the current dominant consumer operating system.
-
-It is not another wrapper built on Linux, like WINE. It does not attempt or plan to compete with WINE; in fact, the user-mode part of ReactOS is almost entirely WINE-based and our two teams have cooperated closely in the past.
-
-ReactOS is also not "yet another OS". It does not attempt to be a third player like any other alternative OS out there. People are not meant to uninstall Linux and use ReactOS instead; ReactOS is a replacement for Windows users who want a Windows replacement that behaves just like Windows.
-
-More information is available at: [reactos.org](https://reactos.org/).
-
-Also see the [media/doc](/media/doc/) subdirectory for some sparse notes.
-
-## Who is responsible
-
-Active devs are listed as members of [GitHub organization](https://github.com/orgs/reactos/people).
-See also the [CREDITS](CREDITS) file for others.
-
-## Code mirrors
-
-The main development is done on [GitHub](https://github.com/reactos/reactos). We have an [alternative mirror](https://git.reactos.org/?p=reactos.git) in case GitHub is down.
-
-There is also an obsolete [SVN archive repository](https://svn.reactos.org/reactos/) that is kept for historical purposes.
-
-[coverity.badge]:   https://scan.coverity.com/projects/205/badge.svg?flat=1
-[rosbewin.badge]:   https://img.shields.io/badge/RosBE_Windows-2.2.1-0688CB.svg
-[rosbeunix.badge]:  https://img.shields.io/badge/RosBE_Unix-2.2.1-0688CB.svg
-[prwelcome.badge]:  https://img.shields.io/badge/PR-welcome-0688CB.svg
-
-[coverity.link]:    https://scan.coverity.com/projects/205
-[rosbewin.link]:    https://sourceforge.net/projects/reactos/files/RosBE-Windows/i386/2.2.1/
-[rosbeunix.link]:   https://sourceforge.net/projects/reactos/files/RosBE-Unix/2.2.1/
+Quick build in Developer Command Prompt:
