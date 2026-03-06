@@ -19,15 +19,14 @@
 
 ## What is NC1?
 
-NC1 is bult on React Os. React Os is an Open Source effort to develop a quality operating system that is compatible with applications and drivers written for the Microsoft® Windows™ NT family of operating systems (NT4, 2000, XP, 2003, Vista, 7).
+NC 1 is my personal take on a lightweight, open-source operating system inspired by the classic Windows NT family (XP/Server 2003 era) but with modern touches.
 
-The ReactOS project, although currently focused on Windows Server 2003 compatibility, is always keeping an eye toward compatibility with Windows Vista and future Windows NT releases.
+- Nostalgic XP-style setup, logon, and shutdown dialogs  
+- Custom dark-mode desktop shell (translucent sidebar panels, centered NC logo, gradient background)  
+- Aiming for better compatibility with Windows 10-era apps (NT 10.0 reporting + API progress)  
+- Built as a fork of [ReactOS](https://reactos.org) — huge thanks to their amazing work!
 
-The code of ReactOS is licensed under [GNU GPL 2.0](https://github.com/reactos/reactos/blob/master/COPYING).
-
-### Product quality warning
-
-**This is currently an Alpha quality operating system.** This means that ReactOS And NC 1 is under heavy development and you have to be ready to encounter some problems. Different things may not work well and it can corrupt the data present on your hard disk. It is HIGHLY recommended to test ReactOS on a virtual machine or on a computer with no sensitive or critical data!
+**Warning:** NC 1 is **alpha quality** software. Use it only in a virtual machine (VirtualBox/VMware) and never on a machine with important data. Things may crash, data may be lost — you have been warned!
 
 ## Building
 
