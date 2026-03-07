@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/Esplash-dev/Nc1">
-    <img src="https://github.com/Esplash-dev/Nc1/raw/master/ysr2.0.png">
-  </a>
-</p>
-
 <h1 align="center">NC 1 (Net Code 1)</h1>
 
 <p align="center">
